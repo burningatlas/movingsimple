@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: first, new
+tags: ["first", "new"]
 ---
 
 new file creation for checking it's existance\
