@@ -1,6 +1,6 @@
 title: displayu # The title of the blog
 author: Pruthvi Raj # Your name 
-email: pruthvirajbhat7.com # your email shown in the footer
+email: pruthvirajbhat7@gmail.com # your email shown in the footer
 url: http://huangyz.name/moving/ # this is your site's root address.
 description: > # this means to ignore newlines until "show_excerpts:"
   write-ups for projects and findings .
@@ -49,3 +49,4 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+theme: moving
