@@ -70,12 +70,12 @@ Here is an [example](https://github.com/huangyz0918/personal-page-blog) for Gith
 You can modify the `_config.yml` to custom your blog. An example is if you want to change the back button's text in each post, you can change the `back_to`.
 
 ```yaml
-title: Moving # The title of the blog
-author: Your Name # Your name 
+title: Pruthvi # The title of the blog
+author: Pruthvi Raj # Your name 
 email: your-email@domain.com # your email shown in the footer
 url: http://huangyz.name/moving/ # this is your site's root address.
 description: > # this means to ignore newlines until "show_excerpts:"
-  A clean and minimalist theme for Jekyll.
+  Change.
 favicon: "./favicon.ico" # set the favicon of the site 
 
 show_excerpts: false # set to true to show excerpts on the homepage
