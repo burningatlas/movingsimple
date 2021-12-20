@@ -4,7 +4,7 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
-body { font: 400 15.3px/1.6 "Bitter", "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", "Bitter", sans-serif; color: #111; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; padding: 0 2%; }
+body { font: 400 15.3px/1.6 "Bitter", "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", "Bitter", sans-serif; color: #ffffff; background-color: #000000; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; padding: 0 2%; }
 
 @media screen and (min-width: 600px) { body { padding: 0 5%; font: 400 18px/1.8 "Bitter", "Hiragino Sans GB", "Microsoft Yahei", "微软雅黑", "Bitter", sans-serif; } }
 
@@ -70,7 +70,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .svg-icon { width: 16px; height: 16px; display: inline-block; fill: currentColor; padding: 5px 3px 2px 5px; vertical-align: text-bottom; }
 
 /** Tables */
-table { margin-bottom: 30px; width: 100%; text-align: left; color: #3f3f3f; border-collapse: collapse; border: 1px solid #e8e8e8; }
+table { margin-bottom: 30px; width: 100%; text-align: left; color: white; border-collapse: collapse; border: 1px solid #e8e8e8; }
 
 table tr:nth-child(even) { background-color: #f7f7f7; }
 
@@ -83,7 +83,7 @@ table td { border: 1px solid #e8e8e8; }
 /** Site header */
 .site-header { border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; line-height: 72.9px; position: relative; }
 
-.site-nav { position: absolute; top: 9px; right: 15px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
+.site-nav { position: absolute; top: 9px; right: 15px; background-color: #000000; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
 
 .site-nav .nav-trigger { display: none; }
 
@@ -97,7 +97,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .site-nav input:checked ~ .trigger { display: block; padding-bottom: 5px; }
 
-.site-nav .page-link { color: #111; line-height: 1.8; display: block; padding: 5px 10px; margin-left: 20px; }
+.site-nav .page-link { color: #ffffff; line-height: 1.8; display: block; padding: 5px 10px; margin-left: 20px; }
 
 .site-nav .page-link:not(:last-child) { margin-right: 0; }
 
@@ -121,11 +121,11 @@ table td { border: 1px solid #e8e8e8; }
 
 .home-title { margin-top: -10px; }
 
-.home-heading { font-weight: 1000; color: #373737; font-size: 39.6px; }
+.home-heading { font-weight: 1000; color: white; font-size: 39.6px; }
 
 @media (max-width: 500px) { .home-heading { margin-top: 20px; font-size: 30.6px; } }
 
-.home-sub-heading { margin-top: -0.6rem; color: #515151; font-size: 18px; }
+.home-sub-heading { margin-top: -0.6rem; color: white; font-size: 18px; }
 
 @media (max-width: 500px) { .home-sub-heading { font-size: 14.4px; } }
 
@@ -133,11 +133,11 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-list li { margin-bottom: 2.5px; }
 
-.post-year { margin-top: 2rem; margin-bottom: 0.25rem; font-weight: 700; color: #373737; font-size: 27px; }
+.post-year { margin-top: 2rem; margin-bottom: 0.25rem; font-weight: 700; color: white; font-size: 27px; }
 
 @media (max-width: 500px) { .post-year { font-size: 21.6px; } }
 
-.post-meta { display: inline-block; min-width: 60px; font-size: 18px; color: #515151; }
+.post-meta { display: inline-block; min-width: 60px; font-size: 18px; color: white; }
 
 @media (max-width: 500px) { .post-meta { font-size: 14.4px; } }
 
@@ -145,11 +145,11 @@ table td { border: 1px solid #e8e8e8; }
 
 @media (max-width: 500px) { .post-link-layout { font-size: 18px; } }
 
-.black-link { color: #111; text-decoration: none; }
+.black-link { color: #ffffff; text-decoration: none; }
 
-.black-link:hover { color: #111; text-decoration: underline; }
+.black-link:hover { color: #ffffff; text-decoration: underline; }
 
-.post-back { margin-bottom: 20px; color: #515151; }
+.post-back { margin-bottom: 20px; color: white; }
 
 /** Posts */
 .post-header { margin-bottom: 30px; }
@@ -194,7 +194,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .about-page .about-header .about-info .about-your-name { display: flex; flex-direction: row; margin-top: 1rem; font-size: 27px; }
 
-.about-page .about-header .about-info .about-description { margin-top: -0.6rem; font-size: 18px; color: #515151; }
+.about-page .about-header .about-info .about-description { margin-top: -0.6rem; font-size: 18px; color: white; }
 
 .about-page .about-content { margin-top: 2rem; }
 
