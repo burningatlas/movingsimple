@@ -1,9 +1,9 @@
-title: home-title # The title of the blog
+title: home-menu # The title of the blog
 author: Pruthvi Raj # Your name 
 email: pruthviraj1398@gmail.com # your email shown in the footer
 url: https://burningatlas.github.io/ # this is your site's root address.
 description: > # this means to ignore newlines until "show_excerpts:"
-  Personal website for technical write-ups
+  website
 favicon: "./favicon.ico" # set the favicon of the site 
 
 show_excerpts: false # set to true to show excerpts on the homepage
