@@ -1,6 +1,6 @@
 ---
 layout: post
-title: OverTheWire Bandit Challenge Write-up
+title: OverTheWire Bandit Write-up
 tags: ["linux"]
 ---
 
