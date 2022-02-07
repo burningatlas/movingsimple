@@ -9,3 +9,5 @@ Learning about systems in the beginning is quite interesting. It's like coming o
 At first it's fascinating -> then, overbearing -> but later it's just what it is. And it's all free to use, poke around and play with.
 
 Bandit from OverTheWire is a CTF style playful, gamified way to get beginners used to linux and security concepts.
+
+feb 2022 update check 
